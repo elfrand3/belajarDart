@@ -78,12 +78,11 @@ void main(List<String> arguments) {
       print("Format yang anda masukkan salah");
     }
 
-    stdout.write("Apakah anda mau keluar (y/t): ");
+    stdout.write("Apakah anda mau keluar : ");
     var b = stdin.readLineSync();
-    if (b == "y") ulang = false;
+    if (b == "y"|| b == "ya" ||b == "Ya"|| b == "YA") ulang = false;
 
     print("");
   }
 
 }
-
