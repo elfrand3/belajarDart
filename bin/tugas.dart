@@ -14,4 +14,16 @@ void main(List<String> arguments) {
       print("$i ");
     }
   }
+
+  // for (int i = 1; i <= 15; i++){
+  //   if ( i % 3 == 0){
+  //     print("Fizz ");
+  //   }else if ( i % 4 == 0){
+  //     print("Buzz ");
+  //   }else if ( i % 15 == 0){
+  //     print("FizzBuzz ");
+  //   }else{
+  //     print("$i ");
+  //   }
+  // }
 }

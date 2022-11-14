@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'binatang.dart';
 import 'person.dart';
 
@@ -37,5 +39,9 @@ void main(){
 
   print(macamHewan.mata);
   print(macamHewan.tubuh);
+
+  stdout.write("Masukkan nama Binatang : ");
+  var namaHewan = stdin.readLineSync();
+  print(namaHewan);
 
 }
