@@ -36,7 +36,7 @@ void main(List<String> arguments) {
 
 // kalkulator
 
-  bool ulang = true;
+  var ulang = true;
 
   while(ulang) {
     try {
